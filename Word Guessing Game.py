@@ -32,16 +32,19 @@ while True:
         print("Try again, Enter a valid number.")
 
 while lives != 0:
-    UserWordInput = input("Enter The word.\n: ").strip().lower()
+    UserWordInput = input(f"Enter The word.({RandomWordWhichIsChoosen})\n: ").strip().lower()
     attempts += 1
     if UserWordInput == RandomWordWhichIsChoosen:
         print(f"YEEEEEEEEE HAAAAAAW, You Guessed the word {RandomWordWhichIsChoosen} with {lives} lives left and in {attempts} attempts.")
         break
+    
     elif UserWordInput != RandomWordWhichIsChoosen:
         print(f"Nope")
         lives -= 1
     else:
         print("Chawlian mari ja rha hai tab se ab hil gya hai kya?")
+    if lives == 0:
+        print(f"Sorry, you've run out of lives! The correct word was '{RandomWordWhichIsChoosen}'.")
 
 
 print("Kle Khao")
