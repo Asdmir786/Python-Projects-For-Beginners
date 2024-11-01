@@ -45,7 +45,4 @@ while lives != 0:
         print("Chawlian mari ja rha hai tab se ab hil gya hai kya?")
     if lives == 0:
         print(f"Sorry, you've run out of lives! The correct word was '{RandomWordWhichIsChoosen}'.")
-
-
 print("Kle Khao")
-    
