@@ -30,7 +30,7 @@ while lives!=0:
             else:
                 print("Babeo Number Deynai 50 or 1 ke darmiyaan. Chawlian marne nu nhi kaha.")
         except ValueError:
-            print("Number not Bs. ")
+            print("I SAID A BLOODY NUMBER NOT BS.")
     attempts += 1
     if UserInput == TheNumber:
         print(f"You Guessed the Number {TheNumber} in {attempts} attempts and {lives} left.")
